@@ -2,7 +2,7 @@
     "description": "Opens all unfavorited images up to the last favorited image on the new illustrations page.",
     "manifest_version": 2,
     "name": "Pixiv Quick Open Unfavorited",
-    "version": "1.0",
+    "version": "1.1",
   
     "background": {
         "scripts": ["background.js"]
@@ -13,7 +13,7 @@
         "16": "icons/icon-16.png",
         "32": "icons/icon-32.png"
       },
-      "show_matches": ["https://www.pixiv.net/bookmark_new_illust.php"]
+      "show_matches": ["https://www.pixiv.net/*"]
     },
 
     "icons": {

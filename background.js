@@ -7,12 +7,18 @@ async function openAll() {
         var balls = `
         var all = [];
     
-        var elems = document.querySelectorAll("ul")[0].getElementsByTagName("li");
+        var elems = document.getElementsByClassName("jtUPOE")[0].getElementsByTagName("li");
     
+        console.log(elems)
         for(let e of elems) {
-            var parent = e.getElementsByTagName("div")[0].getElementsByTagName("div")[0].getElementsByTagName("div")[0];
-            var anchor = parent.getElementsByTagName("a")[0];
-            var heart = parent.getElementsByTagName("svg")[0];
+            console.log(e)
+            var anchor = e.getElementsByTagName("a")[0];
+            var heart = e.getElementsByTagName("svg")[0];
+
+            if (anchor == undefined || heart == undefined) {
+                continue;
+            }
+
             var heartEnabled = heart.classList.contains("bXjFLc")
     
             if (heartEnabled) {
@@ -22,6 +28,7 @@ async function openAll() {
             all.push(anchor.href);
         }
     
+        console.log(all)
         all.reverse();    
         all;`
 
