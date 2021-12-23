@@ -16,6 +16,7 @@ jobs:
       with:
         files: background.js manifest.json icons/ LICENSE
         dest: pixiv-favorites.zip
+        recursive: false
 
     - name: Set output for tags
       id: vars
