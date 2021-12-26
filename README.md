@@ -2,4 +2,4 @@
 
 Opens all unfavorited images up to the last favorited image on the new illustrations page.
 
-Pending upload to the Firefox addon repository.
+https://addons.mozilla.org/en-US/firefox/addon/pixiv-quick-open-unfavorited/
