@@ -7,7 +7,7 @@ async function openAll() {
         var balls = `
         var all = [];
     
-        var elems = document.getElementsByClassName("jtUPOE")[0].getElementsByTagName("li");
+        var elems = document.getElementsByClassName("jELUak")[0].getElementsByTagName("li");
     
         console.log(elems)
         for(let e of elems) {
