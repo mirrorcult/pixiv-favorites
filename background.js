@@ -19,7 +19,7 @@ async function openAll() {
                 continue;
             }
 
-            var heartEnabled = heart.classList.contains("bXjFLc")
+            var heartEnabled = heart.classList.contains("wQCIS")
     
             if (heartEnabled) {
                 break;
